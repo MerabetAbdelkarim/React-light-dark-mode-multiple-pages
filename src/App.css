@@ -1,0 +1,33 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.5s, color 0.5s;
+}
+.toggleTheme{
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  font-size: 30px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.title{
+  font-weight: 600;
+}
+
+.form-text , .text-muted{
+  color: inherit !important;
+}
+
+.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #d2d2d2;
+  color: #080808;
+}
