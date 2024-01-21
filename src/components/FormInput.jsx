@@ -1,7 +1,7 @@
 
-import { Button, Container } from 'react-bootstrap'
+import { Button, Container, Form } from 'react-bootstrap'
 
-function Form() {
+function FormInput() {
   return (
     <div>
       <Container>
@@ -30,4 +30,4 @@ function Form() {
   )
 }
 
-export default Form
+export default FormInput
